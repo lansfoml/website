@@ -1,2 +1,87 @@
 <!DOCTYPE html>
-<html> </html>
+<html>
+<head>
+    <title>Page Layout</title>
+    <style>
+    .row {
+        display: flex;
+
+    }
+
+    .column {
+        flex: 50%;
+
+    }  
+    
+    p {
+        padding: 10px;
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    ul {
+        margin: 5px;
+    }
+
+    .linkcolor {
+        color: white;
+    }
+
+    </style>
+</head>
+<link rel="stylesheet" href="indexcss.css">
+<body>
+     
+    <!-- Header Section -->
+    <header>
+        <div class="head1">JMU Financial Professionals Club</div>
+        <div class="head2">James Madison University Accounting Club</div>
+    </header>
+     
+    <!-- Menu Navigation Bar -->
+    <div class="menu">
+        <a href="/index.html">HOME</a>
+        <a href="/news.html">NEWS</a>
+        <a href="/meetthefounders.html">MEET THE FOUNDERS</a>
+        <a href="/meetthefirms.html">MEET THE FIRMS</a>
+        <a href="/mentorships.html">MENTORSHIPS</a>
+        
+        
+    </div>
+     
+    <!-- Body section -->
+    <div class = "body_sec">
+        <section id="Content">
+
+            <h2 style="background-color:#450084; color: white; width: 95%;">Meet the Founders</h3>
+            <div style="width: 40%; float:left">
+                <h3 style="text-decoration: underline;">We will post updates about the firms here</h3>
+                <p>Firms coming this Week:</p>
+
+                <p>Links to firms and oppurtunities:</p>
+                <ul>
+                    <li><a href="https://www2.deloitte.com/us/en/pages/careers/articles/join-deloitte-undergraduate-degree-opportunities.html?icid=top_join-deloitte-undergraduate-degree-opportunities">
+                        Deloitte</a></li>
+                    <li> <a href="https://www.kpmgcampus.com/">KPMG</li>
+                    <li> <a href="https://www.ey.com/en_us/careers/student-programs">Ernst & Young</li>
+                    <li> <a href="https://jobs.us.pwc.com/entry-level">PricewaterhouseCoopers</li>
+                    <li> <a href="https://www.mckinsey.com/careers/students">McKinsey & Company</li>
+                                
+                </ul>
+             </div>
+             
+             <div style="width: 60%; float:right">
+                <img src="https://www.jmu.edu/_images/cob/board-of-advisors/board-of-advisors-2018-1000x430.jpg"
+                alt="[icture of board of advisors">
+                <span style="display:flex; justify-content: center; font-size:x-small;">JMU Board of Advisors</span>
+             </div>
+            
+        </section>
+    </div>
+     
+    <!-- Footer Section -->
+    <footer style="position: absolute; text-align: center;">
+    <a href="mailto: JMUAccountClub@dukes.jmu.Edu" style="color:white">Email Us</a>
+    </footer>
+</body>
+</html> 
