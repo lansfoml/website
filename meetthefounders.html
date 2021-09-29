@@ -6,6 +6,7 @@
 
     .row {
     display: flex;
+    
     }
 
     /* Create three equal columns that sits next to each other */
@@ -13,6 +14,9 @@
     flex: 33.33%;
     padding: 5px;
     text-align: center;
+    max-height: 270px;
+    object-fit: cover;
+    overflow: hidden;
     
     
     }
@@ -25,13 +29,15 @@
 
 
     img {
-        height: auto;
-        max-width: 100%;
+        object-fit: cover;
+        overflow: hidden;
     }
 
     </style>
 </head>
 <link rel="stylesheet" href="/css/indexcss.css">
+<link rel="shortcut icon" type="image/png" href="images/jmu-favicon.png"/>
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <body>
      
     <!-- Header Section -->
@@ -59,14 +65,41 @@
             <div class="row">
                 <div class="column">
                     <img src="images/headshot-1.jpeg">
-                    <p>Marie Hernandez</p>
-                    <p>President</p>
+                    
                 </div>
                 <div class="column">
                     <img src="images/headshot-2.jpeg">
                 </div>
                 <div class="column">
                     <img src="images/headshot-3.jpeg">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <p>President</p>
+                    <p>Marie Hernandez</p>
+                </div>
+                <div class="column">
+                    <p>Vice President</p>
+                    <p>Colin Shadler</p>
+                </div>
+                <div class="column">
+                    <p>Treasurer</p>
+                    <p>Mike Wilkins</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="images/headshot-4.jpeg">
+                    
+                </div>
+                <div class="column">
+                    <img src="images/headshot-5.jpeg">
+                </div>
+                <div class="column">
+                    <img src="images/headshot-6.jpeg">
                 </div>
             </div>
             

@@ -71,3 +71,23 @@ img {
     
 }
 
+
+p, h1, h2, h3, li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Money-shake {
+    
+    animation: shake 1s;
+    animation-iteration-count: infinite;
+    
+  }
+
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) ; }
+    25% { transform: translate(-15px, 15px) ; }
+    50% { transform: translate(1px, 1px) ; }
+    75% { transform: translate(1px, 1px) ; }
+    
+  }
+
