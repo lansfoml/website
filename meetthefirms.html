@@ -2,31 +2,7 @@
 <html>
 <head>
     <title>Page Layout</title>
-    <style>
-    .row {
-        display: flex;
 
-    }
-
-    .column {
-        flex: 50%;
-
-    }  
-    
-    p {
-        
-        font-size: 18px;
-        margin: 5px;
-    }
-
-    ul {
-        margin: 5px;
-    }
-
-    .linkcolor {
-        color: white;
-    }
-    </style>
 </head>
 <link rel="stylesheet" href="/css/indexcss.css">
 <link rel="shortcut icon" type="image/png" href="images/jmu-favicon.png"/>
@@ -43,9 +19,10 @@
     <div class="menu">
         <a href="/index.html">HOME</a>
         <a href="/news.html">NEWS</a>
-        <a href="/meetthefounders.html">MEET THE FOUNDERS</a>
+
         <a href="/meetthefirms.html">MEET THE FIRMS</a>
         <a href="/mentorships.html">MENTORSHIPS</a>
+        <a href="/signup.html">SIGN UP</a>
         
         
     </div>
@@ -54,8 +31,8 @@
     <div class = "body_sec">
         <section id="Content">
 
-            <h2 style="background-color:#450084; color: white; width: 97%;">Meet The Firms</h3>
-            <div style="width: 40%; float:left">
+            <h2 class="low-head"">Meet The Firms</h2>
+            <div class="content-left">
                 <h3 style="text-decoration: underline;">We will post updates about the firms here</h3>
                 <p>Firms coming this Week:</p>
 
@@ -63,18 +40,17 @@
                 <ul>
                     <li><a href="https://www2.deloitte.com/us/en/pages/careers/articles/join-deloitte-undergraduate-degree-opportunities.html?icid=top_join-deloitte-undergraduate-degree-opportunities">
                         Deloitte</a></li>
-                    <li> <a href="https://www.kpmgcampus.com/">KPMG</li>
-                    <li> <a href="https://www.ey.com/en_us/careers/student-programs">Ernst & Young</li>
-                    <li> <a href="https://jobs.us.pwc.com/entry-level">PricewaterhouseCoopers</li>
-                    <li> <a href="https://www.mckinsey.com/careers/students">McKinsey & Company</li>
+                    <li> <a href="https://www.kpmgcampus.com/">KPMG</a></li>
+                    <li> <a href="https://www.ey.com/en_us/careers/student-programs">Ernst & Young</a></li>
+                    <li> <a href="https://jobs.us.pwc.com/entry-level">PricewaterhouseCoopers</a></li>
+                    <li> <a href="https://www.mckinsey.com/careers/students">McKinsey & Company</a></li>
                                 
                 </ul>
              </div>
              
-             <div style="width: 60%; float:right">
-                <img src="https://www.jmu.edu/_images/cob/board-of-advisors/board-of-advisors-2018-1000x430.jpg"
-                alt="[icture of board of advisors">
-                <span style="display:flex; justify-content: center; font-size:x-small;">JMU Board of Advisors</span>
+             <div class="content-right">
+                <img src="images/kpmg-logos.jpeg" alt="picture of firms logos">
+                <span style="display:flex; justify-content: center; font-size:small;">Firms visiting us!</span>
              </div>
             
         </section>
