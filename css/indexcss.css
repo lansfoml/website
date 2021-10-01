@@ -52,7 +52,8 @@ footer {
     font-weight:bold;
 }
 .body_sec {
-    margin-left:20px;
+    margin-left:10px;
+    margin-right: 10px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -96,6 +97,23 @@ li {
 .content-left {
     width: 40%; 
     float:left
+}
+
+@media screen and (max-width: 600px) {
+    
+    .content-right {
+        position: relative;
+    top: 31px;
+    float: none;
+    padding: 10px;
+    margin: 10px;
+    }
+
+    .content-left {
+        width: 100%;
+        float: none;
+        
+    }
 }
 
 #Money-shake {
